@@ -1,0 +1,15 @@
+.container {
+  margin-top: 30px;
+}
+
+input.ng-invalid.ng-touched { 
+  border: 1px solid rgb(202, 0, 0);
+}
+
+input.ng-valid.ng-touched { 
+  border: 1px solid rgb(27, 163, 0);
+}
+
+input.ng-pending.ng-touched { 
+  border: 1px solid yellow;
+}

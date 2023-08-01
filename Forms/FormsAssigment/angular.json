@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ReactiveFormsProject": {
+    "FormsAssigment": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/reactive-forms-project",
+            "outputPath": "dist/forms-assigment",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -61,10 +61,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "ReactiveFormsProject:build:production"
+              "browserTarget": "FormsAssigment:build:production"
             },
             "development": {
-              "browserTarget": "ReactiveFormsProject:build:development"
+              "browserTarget": "FormsAssigment:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -72,7 +72,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ReactiveFormsProject:build"
+            "browserTarget": "FormsAssigment:build"
           }
         },
         "test": {
